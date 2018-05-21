@@ -218,7 +218,7 @@ e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 67a5f2c97205d2e41a8ed7c7ce898f6e UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSoundfieldExtension
 67a5f2c97205d2e41a8ed7c7ce898f6e UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSourceExtension
 abe32a93cd37b12375c9475f8f38bec3 Assembly-CSharp.dll:.PunTurnManager
-3bce56e4a2f43e448effc29ca06a3b85 Assembly-CSharp.dll:.timeremain
+aa090a52830d1a6db89f6026a2ef5810 Assembly-CSharp.dll:.timeremain
 9e0ef5bf862444b5dc48b5a99554ce7c UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioListenerExtension
 e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
 67a5f2c97205d2e41a8ed7c7ce898f6e UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSoundfieldExtension
@@ -265,7 +265,7 @@ bd391be401e6d3724720058620cce6e5 Assembly-CSharp.dll:.ToHubButton
 4b8b25ed60c1bb417f20991003ba0256 Assembly-CSharp.dll:.WorkerMenu
 604f5f55c1cc414f64da1990b36ff015 Assembly-CSharp.dll:.PhotonView
 b2dc25029b6f083ffbbdf9df269f825a Assembly-CSharp.dll:.InRoomChat
-aa3a3f8550d65779b08b904cf51505bc Assembly-CSharp.dll:.GameStartEnd
+7329fb52a7e1a4d5b6e4a0b21748ef35 Assembly-CSharp.dll:.GameStartEnd
 1fa22adafd62df61b5d8eb8c853ff310 Assembly-CSharp.dll:.photonConnect
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ClickDetector
 54a26a95db9c623b6eb6fc01ae3ef891 Assembly-CSharp.dll:.CubeExtra

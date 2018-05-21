@@ -30,22 +30,32 @@ public class PoolsLoop : Photon.MonoBehaviour {
     }
     void Update()
     {
-		if (GetComponent<GameStartEnd>().gamestarted && !isspawned)
-		{
-			MakeCoint();
+		if (pv.isMine) {
+			if (GetComponent<GameStartEnd>().gamestarted && !isspawned)
+			{
+				MakeCoint();
+			}
+			if (GetComponent<GameStartEnd>().gamestarted)
+			{
+				Setspawn();
+			}
+			if (GetComponent<GameStartEnd>().gameover) {
+				sentToPools();
+			}
 		}
-        if (GetComponent<GameStartEnd>().gamestarted)
-        {
-            Setspawn();
 
-        }
         
     }
 
 
 
 
-
+	void sentToPools(){
+		for (int i = 0; i < poolsize; i++)
+		{
+			coins [i].transform.position = objectpools;
+		}
+	}
 
     void MakeCoint()
    {

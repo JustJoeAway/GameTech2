@@ -329,7 +329,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pv: {fileID: 114452371610189590}
-  waktu: 120
+  waktu: 20
   timetext: {fileID: 0}
   gamestarted: 0
   gameover: 0
@@ -372,6 +372,7 @@ MonoBehaviour:
   sprite: {fileID: 212278618909332518}
   movespeed: 20
   jumpforce: 750
+  h: 0
   rg: {fileID: 50190667337269736}
   grd: 0
   pnametext: {fileID: 114183124179222882}

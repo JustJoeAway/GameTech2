@@ -36,7 +36,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1292124327051850}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -18.405283, y: -2.4999585, z: -0.091248095}
+  m_LocalPosition: {x: -132.15735, y: -14.467941, z: -0.091248095}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -108,3 +108,5 @@ MonoBehaviour:
   gameover: 0
   player2: 0
   player1: 0
+  gob1: {fileID: 0}
+  gob2: {fileID: 0}

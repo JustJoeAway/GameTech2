@@ -48,18 +48,21 @@ public class PlayerStatus : Photon.MonoBehaviour {
         }
         else if(col.gameObject.tag == "BAG" && isthereanitem && pv.isMine)
         {
-            if (itemlist == 1)
+			if (itemlist == 1 && col.gameObject.name == "BAK1")
             {
                 addscore(500);
                 pv.RPC("addscore", PhotonTargets.Others, 500);
+				touchitem(0);
+				itemlist = 0;
             }
-            else
+			else if(itemlist == 2 && col.gameObject.name == "BAK2")
             {
                 addscore(1000);
                 pv.RPC("addscore", PhotonTargets.Others, 1000);
+				touchitem(0);
+				itemlist = 0;
             }
-            touchitem(0);
-            itemlist = 0;
+            
             Debug.Log("BAG TOUCH");
         }
     }

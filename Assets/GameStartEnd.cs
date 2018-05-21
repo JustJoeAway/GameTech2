@@ -19,29 +19,25 @@ public class GameStartEnd : Photon.MonoBehaviour{
         if (pv.viewID == 1002)
         {
             player1 = true;
+			this.gameObject.name += "1";
         }
         else if (pv.viewID == 2002)
         {
             player2 = true;
+			this.gameObject.name += "2";
         }
     }
 	void Update(){
 		if (gob1==null || gob2==null) {
-			gob1 = GameObject.Find("Gamemanager 1(Clone)").GetComponent<GameStartEnd>();
-			gob2 = GameObject.Find("Gamemanager 2(Clone)").GetComponent<GameStartEnd>();
+			gob1 = GameObject.Find("Gamemanager 1(Clone)1").GetComponent<GameStartEnd>();
+			gob2 = GameObject.Find("Gamemanager 1(Clone)2").GetComponent<GameStartEnd>();
 		}
 		if (gob1.player1 && gob2.player2) {
 			gamestarted = true;
-			Debug.Log("asdasdasd");
+		} else {
+			gamestarted = false;
+			gameover = true;
 		}
 	}
-
-    [PunRPC]
-    public void Player2login(bool test)
-    {
-    	this.player1 = true;
-		this.player2 = true;
-        Debug.Log("Player 2 message");
-    }
 
 }

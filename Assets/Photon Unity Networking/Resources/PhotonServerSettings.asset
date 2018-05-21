@@ -67,4 +67,5 @@ MonoBehaviour:
   - player2login
   - Othergamestarted
   - Player1login
+  - settextother
   DisableAutoOpenWizard: 1

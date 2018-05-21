@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameTech2", "Assembly-CSharp.csproj", "{6094F40F-136F-2E64-285B-9C52DCA3255B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameTech2", "Assembly-CSharp-firstpass.csproj", "{F1EC35EC-0EF5-BA62-631E-A55526594E23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameTech2", "Assembly-CSharp-Editor.csproj", "{6DB19196-32A9-7962-6BD0-1126CFE18DE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6094F40F-136F-2E64-285B-9C52DCA3255B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6094F40F-136F-2E64-285B-9C52DCA3255B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6094F40F-136F-2E64-285B-9C52DCA3255B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6094F40F-136F-2E64-285B-9C52DCA3255B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1EC35EC-0EF5-BA62-631E-A55526594E23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1EC35EC-0EF5-BA62-631E-A55526594E23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1EC35EC-0EF5-BA62-631E-A55526594E23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1EC35EC-0EF5-BA62-631E-A55526594E23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DB19196-32A9-7962-6BD0-1126CFE18DE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DB19196-32A9-7962-6BD0-1126CFE18DE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DB19196-32A9-7962-6BD0-1126CFE18DE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DB19196-32A9-7962-6BD0-1126CFE18DE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
