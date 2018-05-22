@@ -107,8 +107,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1272611885496206}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.912228, y: -8.74576, z: 0}
-  m_LocalScale: {x: 0.33001095, y: 0.28263175, z: 0.06654868}
+  m_LocalPosition: {x: 14.654212, y: -5.854986, z: 0}
+  m_LocalScale: {x: 0.15738405, y: 0.13154076, z: 0.030590303}
   m_Children:
   - {fileID: 224946212862801936}
   - {fileID: 4566329309334732}
@@ -133,7 +133,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 165
+  field of view: 170
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -183,18 +183,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.10427284, y: -0.21644759}
+  m_Offset: {x: -0.1281712, y: -2.812203}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 6, y: 6.09}
+    oldSize: {x: 16.57, y: 16.75}
     newSize: {x: 0.32, y: 0.35}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4.9572735, y: 5.5488772}
+  m_Size: {x: 9.141361, y: 10.740388}
   m_EdgeRadius: 0
 --- !u!81 &81856539147235230
 AudioListener:
@@ -310,13 +310,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isthereanitem: 1
-  sprite1: {fileID: 21300000, guid: 5ee82270c18f79b4194340813b239f1d, type: 3}
-  sprite2: {fileID: 21300008, guid: 5ee82270c18f79b4194340813b239f1d, type: 3}
-  sprite3: {fileID: 21300010, guid: 5ee82270c18f79b4194340813b239f1d, type: 3}
+  sprite1: {fileID: 21300000, guid: 9c0503909f31e4f45a1096180e3a54a8, type: 3}
+  sprite2: {fileID: 21300000, guid: 055b8d76e5797334c8bf8edb3cce14fb, type: 3}
+  sprite3: {fileID: 21300000, guid: bdc7b3e103ea5c647a5b7db7cde7ccc0, type: 3}
   itemlist: 1
   PlayerScore: 0
   scoretext: {fileID: 114183124179222882}
   pv: {fileID: 114452371610189590}
+  anim: {fileID: 95555006092972060}
 --- !u!114 &114633602287132848
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -329,12 +330,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pv: {fileID: 114452371610189590}
-  waktu: 20
+  waktu: 120
   timetext: {fileID: 0}
   gamestarted: 0
   gameover: 0
-  player2: 0
-  player1: 0
+  scoreplayer1: 0
+  scoreplayer2: 0
 --- !u!114 &114812222140171622
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -371,7 +372,7 @@ MonoBehaviour:
   pv: {fileID: 114452371610189590}
   sprite: {fileID: 212278618909332518}
   movespeed: 20
-  jumpforce: 750
+  jumpforce: 900
   h: 0
   rg: {fileID: 50190667337269736}
   grd: 0
@@ -419,7 +420,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f520cf38cb508c54db3e8a523e918ef6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9c0503909f31e4f45a1096180e3a54a8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
@@ -463,14 +464,14 @@ RectTransform:
   m_GameObject: {fileID: 1434629521700456}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.019674849, y: 0.01967485, z: 0.01967485}
+  m_LocalScale: {x: 0.056323666, y: 0.056323662, z: 0.056323662}
   m_Children: []
   m_Father: {fileID: 224946212862801936}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00000013411, y: 6.3}
+  m_AnchoredPosition: {x: -3.2, y: 11.5}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224946212862801936

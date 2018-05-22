@@ -55,7 +55,7 @@ public class phand : Photon.MonoBehaviour
     private void SpawnPlayer()
     {
 		playernumber++;
-        PhotonNetwork.Instantiate(MainPlayer.name,MainPlayer.transform.position, MainPlayer.transform.rotation, 0);
+		PhotonNetwork.Instantiate(MainPlayer.name,new Vector3(0.03f,1f,0f), MainPlayer.transform.rotation, 0);
 		PhotonNetwork.Instantiate(gamemeger.name, gamemeger.transform.position, gamemeger.transform.rotation, 0);
     }
 }
