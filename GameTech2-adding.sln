@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameTech2-adding", "GameTech2-adding.csproj", "{53690DF1-AF73-5D3A-BE89-32ED39F1B812}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameTech2-adding.Plugins", "GameTech2-adding.Plugins.csproj", "{8896A5B2-84C8-FC0D-942F-1118656203C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameTech2-adding.Editor", "GameTech2-adding.Editor.csproj", "{2A91001B-D83A-5E10-0469-60D70212BE7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53690DF1-AF73-5D3A-BE89-32ED39F1B812}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53690DF1-AF73-5D3A-BE89-32ED39F1B812}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53690DF1-AF73-5D3A-BE89-32ED39F1B812}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53690DF1-AF73-5D3A-BE89-32ED39F1B812}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8896A5B2-84C8-FC0D-942F-1118656203C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8896A5B2-84C8-FC0D-942F-1118656203C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8896A5B2-84C8-FC0D-942F-1118656203C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8896A5B2-84C8-FC0D-942F-1118656203C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A91001B-D83A-5E10-0469-60D70212BE7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A91001B-D83A-5E10-0469-60D70212BE7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A91001B-D83A-5E10-0469-60D70212BE7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A91001B-D83A-5E10-0469-60D70212BE7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
