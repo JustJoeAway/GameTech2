@@ -2,11 +2,12 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Co-op\Script\PlayerStatus.cs">
     <Files>
-      <File FileName="Assets\GameStartEnd.cs" Line="1" Column="1" />
-      <File FileName="Assets\Co-op\Script\PoolsLoop.cs" Line="1" Column="1" />
+      <File FileName="Assets\GameStartEnd.cs" Line="33" Column="1" />
+      <File FileName="Assets\Co-op\Script\PoolsLoop.cs" Line="6" Column="21" />
       <File FileName="Assets\Co-op\Script\phand.cs" Line="58" Column="68" />
-      <File FileName="Assets\Co-op\Script\PlayerStatus.cs" Line="96" Column="30" />
+      <File FileName="Assets\Co-op\Script\PlayerStatus.cs" Line="76" Column="14" />
       <File FileName="Assets\Co-op\Script\Playermove.cs" Line="19" Column="5" />
+      <File FileName="Assets\Co-op\Script\photonConnect.cs" Line="33" Column="26" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

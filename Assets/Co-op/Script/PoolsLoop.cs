@@ -5,11 +5,6 @@ using UnityEngine;
 public class PoolsLoop : Photon.MonoBehaviour {
 	public float xRmin=-20f;
 	public float xRmax=20f;
-
-	public float yRmin=5.8f;
-	public float yRmax=9f;
-
-
 	public int poolsize;
 	public GameObject coinprefab;
 	public GameObject coinprefab2;
@@ -75,9 +70,8 @@ public class PoolsLoop : Photon.MonoBehaviour {
        if (lastspawn >= spawnrate)
        {
            lastspawn = 0;
-           float spawnY = Random.Range(yRmin, yRmax);
            float spawnX = Random.Range(xRmin, xRmax);
-           coins[currentcoins].transform.position = new Vector2(spawnY, spawnX);
+			coins[currentcoins].transform.position = new Vector2(spawnX,19.9f);
            currentcoins++;
            if (currentcoins >= poolsize)
            {

@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class GameStartEnd : Photon.MonoBehaviour{
@@ -38,6 +39,9 @@ public class GameStartEnd : Photon.MonoBehaviour{
 			gamestarted = false;
 			gameover = true;
 		}
+	}
+	public void loadframe1(){
+		SceneManager.LoadScene ("Frame1");
 	}
 
 }

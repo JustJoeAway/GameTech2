@@ -77,8 +77,8 @@ public class PlayerStatus : Photon.MonoBehaviour {
                 itemlist = 1;
                 isthereanitem = true;
                 this.GetComponent<SpriteRenderer>().sprite = sprite2;
-				anim.SetTrigger ("Sprite2Idle");
-                pv.RPC("setsprite2", PhotonTargets.Others);
+				anim.SetTrigger ("Sprite3Idle");
+                pv.RPC("setsprite3", PhotonTargets.Others);
 
                 
             }
@@ -87,8 +87,8 @@ public class PlayerStatus : Photon.MonoBehaviour {
                 itemlist = 2;
                 isthereanitem = true;
                 this.GetComponent<SpriteRenderer>().sprite = sprite3;
-				anim.SetTrigger ("Sprite3Idle");
-                pv.RPC("setsprite3", PhotonTargets.Others);
+				anim.SetTrigger ("Sprite2Idle");
+                pv.RPC("setsprite2", PhotonTargets.Others);
             }
 
             else
