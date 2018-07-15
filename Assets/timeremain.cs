@@ -12,6 +12,7 @@ public class timeremain : Photon.MonoBehaviour
     public bool gamestarted;
 	public bool gameover;
 	public int scoreplayer1,scoreplayer2;
+	public string name1,name2;
 
     // Use this for initialization
     void Start()
@@ -44,12 +45,18 @@ public class timeremain : Photon.MonoBehaviour
 				pv.RPC ("settextother", PhotonTargets.Others, timetext.text);
 				scoreplayer1 = GameObject.Find ("MainPlayer (1)(Clone)1").GetComponent<PlayerStatus> ().PlayerScore;
 				scoreplayer2 = GameObject.Find ("MainPlayer (1)(Clone)2").GetComponent<PlayerStatus> ().PlayerScore;
+				name1=GameObject.Find ("MainPlayer (1)(Clone)1").GetComponent<PlayerStatus> ().nameply.text;
+				name2=GameObject.Find ("MainPlayer (1)(Clone)2").GetComponent<PlayerStatus> ().nameply.text;	
 				if (scoreplayer1 > scoreplayer2) {
 					timetext.text = "You WIN!!!!";
 					pv.RPC ("settextother", PhotonTargets.Others, "You LOSE!!!!");
+					GameObject.Find ("EventSystem").GetComponent<endgame> ().gameended(name1,name2,scoreplayer1,scoreplayer2);
+					pv.RPC ("Winner", PhotonTargets.Others, name1,name2,scoreplayer1,scoreplayer2);
 				} else {
 					timetext.text = "You LOSE!!!!";
 					pv.RPC ("settextother", PhotonTargets.Others, "You WIN!!!!");
+					GameObject.Find ("EventSystem").GetComponent<endgame> ().gameended(name2,name1,scoreplayer2,scoreplayer1);
+					pv.RPC ("Winner", PhotonTargets.Others, name2,name1,scoreplayer2,scoreplayer1);
 				}
 
 			} else {
@@ -63,7 +70,7 @@ public class timeremain : Photon.MonoBehaviour
     // Update is called once per frame
     public void countdown()
     {
-		if (waktu > 0f) {
+		if (waktu > 0.5f) {
 			waktu -= Time.deltaTime;
 			timetext.text = "Time Remain : " + waktu.ToString ("F0");
 		} else {
@@ -84,6 +91,12 @@ public class timeremain : Photon.MonoBehaviour
 	{
 		timetext.text = tess;
 	}
+	[PunRPC]
+	public void Winner(string namest, string namend, int scorest, int scorend)
+	{
+		GameObject.Find ("EventSystem").GetComponent<endgame> ().gameended(namest,namend,scorest,scorend);
+	}
+	
 
 
    

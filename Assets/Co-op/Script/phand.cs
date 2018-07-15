@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class phand : Photon.MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class phand : Photon.MonoBehaviour
     public GameObject gamemeger;
     public bool istheregamemanager = false;
 	private int playernumber;
+	public Text inputnama;
+	public string namaplayer;
     private void Awake()
     {
         DontDestroyOnLoad(this.transform);
@@ -54,6 +57,7 @@ public class phand : Photon.MonoBehaviour
     }
     private void SpawnPlayer()
     {
+		namaplayer = inputnama.text;
 		playernumber++;
 		PhotonNetwork.Instantiate(MainPlayer.name,new Vector3(0.03f,1f,0f), MainPlayer.transform.rotation, 0);
 		PhotonNetwork.Instantiate(gamemeger.name, gamemeger.transform.position, gamemeger.transform.rotation, 0);

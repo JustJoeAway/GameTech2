@@ -68,4 +68,6 @@ MonoBehaviour:
   - Othergamestarted
   - Player1login
   - settextother
+  - setplayername
+  - Winner
   DisableAutoOpenWizard: 1

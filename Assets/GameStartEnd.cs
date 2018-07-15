@@ -33,7 +33,7 @@ public class GameStartEnd : Photon.MonoBehaviour{
 			gob1 = GameObject.Find("Gamemanager 1(Clone)1").GetComponent<GameStartEnd>();
 			gob2 = GameObject.Find("Gamemanager 1(Clone)2").GetComponent<GameStartEnd>();
 		}
-		if (gob1.player1 && gob2.player2) {
+		if (gob1!=null && gob2!=null && !gameover) {
 			gamestarted = true;
 		} else {
 			gamestarted = false;

@@ -12,12 +12,28 @@ public class PlayerStatus : Photon.MonoBehaviour {
     public int itemlist = 0;
 	public int PlayerScore;
 	public Text scoretext;
+	public Text nameply;
     private bool sasd;
     public PhotonView pv;
     private Cointbehavior co1;
     private cointbehavior2 co2;
 	public Animator anim;
-    private void Start()
+	public phand namaplayercom;
+	
+	
+	
+    private void Awake()
+    {
+        namaplayercom = GameObject.Find("photondontdestroy").GetComponent<phand>();
+		if (pv.isMine)
+        {
+            nameply.text = "" + namaplayercom.namaplayer;
+			pv.RPC("setplayername", PhotonTargets.All, nameply.text);
+        }
+		
+    }
+	
+	private void Start()
     {
         isthereanitem = false;
     }
@@ -133,6 +149,11 @@ public class PlayerStatus : Photon.MonoBehaviour {
     public void senttopool(GameObject jam)
     {
         jam.transform.position = new Vector2(-20, -10);
+    }
+	[PunRPC]
+    public void setplayername(string ssss)
+    {
+        nameply.text = "" + ssss;
     }
 
 
