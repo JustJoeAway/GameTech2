@@ -1,10 +1,12 @@
 WindowsStandalone
 PlayerPath?
-C:/Users/joe/Documents/GitHub/TubesSG2 Joe Revision/GameTech2/GameTech2.exe
+C:/Users/joe/Documents/GitHub/TubesSG2 Joe Revision/New folder (2)/New folder (2).exe
 SceneListBegin?
 Assets/Co-op/Scene/Main.unity
 Assets/Co-op/Scene/Frame1.unity
 Assets/Co-op/Scene/Frame2.unity
+Assets/Co-op/Scene/Frame3.unity
+Assets/Co-op/Scene/Frame4.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.PunTeams
 4d0187d1ee26ceba125a106f0dde0360 Assembly-CSharp.dll:.SmoothSyncMovement
@@ -134,7 +136,7 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
-6a40db0c77320a0af2d049ac522da13b Assembly-CSharp.dll:.phand
+bedb9cac6681992316bfe7a64af468aa Assembly-CSharp.dll:.phand
 17747b41ce0c6d0920e5a46af1f7e856 Assembly-CSharp.dll:.PoolsLoop
 4ce2b1853c9a392b036a6a654be90ccb Assembly-CSharp.dll:.OnClickInstantiate
 f59f28c61dca4961e43b865296d0185c Assembly-CSharp.dll:.Cointbehavior
@@ -175,6 +177,7 @@ abe32a93cd37b12375c9475f8f38bec3 Assembly-CSharp.dll:.PunTurnManager
 e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
 67a5f2c97205d2e41a8ed7c7ce898f6e UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSoundfieldExtension
 67a5f2c97205d2e41a8ed7c7ce898f6e UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSourceExtension
+ea2905a7cec4257b1c7c0ea0b400aee0 Assembly-CSharp.dll:.endgame
 bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInput
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
@@ -195,4 +198,3 @@ d1755adc44fcb9e44c42a5889d35f7a0 Assembly-CSharp.dll:.MoveByKeys
 b2dc25029b6f083ffbbdf9df269f825a Assembly-CSharp.dll:.InRoomChat
 7329fb52a7e1a4d5b6e4a0b21748ef35 Assembly-CSharp.dll:.GameStartEnd
 1fa22adafd62df61b5d8eb8c853ff310 Assembly-CSharp.dll:.photonConnect
-ea2905a7cec4257b1c7c0ea0b400aee0 Assembly-CSharp.dll:.endgame

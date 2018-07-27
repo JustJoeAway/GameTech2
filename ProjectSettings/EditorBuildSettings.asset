@@ -62,9 +62,6 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Co-op/Scene/Main.unity
     guid: 52878f54ac74d2e438242bde0d39c00e
@@ -74,4 +71,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Co-op/Scene/Frame2.unity
     guid: 720e2063725191445aea67d7f6a2e759
+  - enabled: 1
+    path: Assets/Co-op/Scene/Frame3.unity
+    guid: 907768a11ca9fd740b3ec6fafa2467df
+  - enabled: 1
+    path: Assets/Co-op/Scene/Frame4.unity
+    guid: a05baf3447b0e5b4fb63bceefce61b63
   m_configObjects: {}

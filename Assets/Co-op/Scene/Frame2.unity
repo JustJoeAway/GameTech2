@@ -293,18 +293,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 4.649399}
+  m_Offset: {x: 0.05593252, y: 0.18967998}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
+    border: {x: 0.74, y: 0.53, z: 0.78999996, w: 0.01}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 91.31, y: 93.49}
+    oldSize: {x: 2.6, y: 4.2}
     newSize: {x: 0.37, y: 0.37}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 99, y: 89.37367}
+  m_Size: {x: 2.2097101, y: 5.6696787}
   m_EdgeRadius: 0
 --- !u!61 &137316672
 BoxCollider2D:
@@ -318,18 +318,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -1.469593, y: 4.165493}
+  m_Offset: {x: 0.042874575, y: 0.17471552}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
+    border: {x: 0.74, y: 0.53, z: 0.78999996, w: 0.01}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 91.31, y: 93.49}
+    oldSize: {x: 2.6, y: 4.2}
     newSize: {x: 0.37, y: 0.37}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 62.31108, y: 83.72347}
+  m_Size: {x: 1.4991443, y: 4.759289}
   m_EdgeRadius: 0
 --- !u!212 &137316673
 SpriteRenderer:
@@ -366,7 +366,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 3a29ba25133dfb84daaecca5673d5307, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8454df2b4bdfafa4c91d94f5752f279d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -383,8 +383,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 137316669}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -21.26, y: -2.31, z: 0}
-  m_LocalScale: {x: 0.015, y: 0.015, z: 0.0040575718}
+  m_LocalPosition: {x: -21.13, y: -1.84, z: 0}
+  m_LocalScale: {x: 0.56410366, y: 0.56410307, z: 0.15259258}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -1933,18 +1933,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.7322006, y: -1.1813049}
+  m_Offset: {x: 0.039287448, y: -0.04327607}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 91.31, y: 93.49}
+    oldSize: {x: 2.24, y: 2.25}
     newSize: {x: 0.37, y: 0.37}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 92.82417, y: 100.295395}
+  m_Size: {x: 1.5121245, y: 3.0888796}
   m_EdgeRadius: 0
 --- !u!61 &1471096067
 BoxCollider2D:
@@ -1958,18 +1958,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0018615723, y: -1.666748}
+  m_Offset: {x: -0.00957799, y: 0.060596347}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 91.31, y: 93.49}
+    oldSize: {x: 2.24, y: 2.25}
     newSize: {x: 0.37, y: 0.37}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 70.72206, y: 88.63052}
+  m_Size: {x: 0.94501114, y: 2.291416}
   m_EdgeRadius: 0
 --- !u!212 &1471096068
 SpriteRenderer:
@@ -2006,7 +2006,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d545396785f71ed4eaf53f40a00115e7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1301ebb82a4302f47b0721b2252d5df7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2023,8 +2023,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1471096065}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21.58, y: -2.29, z: 0}
-  m_LocalScale: {x: 0.015, y: 0.015, z: 0.004057572}
+  m_LocalPosition: {x: 21.28, y: -1.93, z: 0}
+  m_LocalScale: {x: 1.1237924, y: 1.1237904, z: 0.30399072}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6

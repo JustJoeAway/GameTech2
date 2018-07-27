@@ -12,6 +12,7 @@ public class phand : Photon.MonoBehaviour
     public bool istheregamemanager = false;
 	private int playernumber;
 	public Text inputnama;
+	public Text MAP;
 	public string namaplayer;
     private void Awake()
     {
@@ -38,7 +39,16 @@ public class phand : Photon.MonoBehaviour
 
     public void MoveScene()
     {
-        PhotonNetwork.LoadLevel("Frame2");
+		if(MAP.text == "Map1"){
+			PhotonNetwork.LoadLevel("Frame2");
+		}
+		else if(MAP.text == "Map2"){
+			PhotonNetwork.LoadLevel("Frame3");
+		}
+		else if(MAP.text == "Map3"){
+			PhotonNetwork.LoadLevel("Frame4");
+		}
+        
     }
 
     private void OnJoinedRoom()
@@ -50,10 +60,8 @@ public class phand : Photon.MonoBehaviour
 
     private void OnFinishedLoading(Scene scene, LoadSceneMode mode)
     {
-        if (scene.name == "Frame2")
-        {
-            SpawnPlayer();
-        }
+        SpawnPlayer();
+        
     }
     private void SpawnPlayer()
     {
