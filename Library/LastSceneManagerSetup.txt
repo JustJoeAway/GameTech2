@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Co-op/Scene/Frame1.unity
+- path: Assets/Co-op/Scene/Main.unity
   isLoaded: 1
   isActive: 1
