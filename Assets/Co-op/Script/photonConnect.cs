@@ -11,8 +11,11 @@ public class photonConnect : MonoBehaviour {
 
     private void Awake()
     {
-        PhotonNetwork.ConnectUsingSettings(versionName);
-        Debug.Log("Connected  to photon....");
+		
+			PhotonNetwork.ConnectUsingSettings(versionName);
+			Debug.Log("Connected  to photon....");
+		
+        
     }
     private void OnConnectedToMaster()
     {
@@ -28,6 +31,10 @@ public class photonConnect : MonoBehaviour {
 
     }
 
+	public void diskonek(){
+		PhotonNetwork.Disconnect();
+	}
+	
     private void OnDisconnectedFromPhoton()
     {
         if (sectionView1.active)

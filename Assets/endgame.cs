@@ -7,7 +7,7 @@ public class endgame : MonoBehaviour {
 	
 	public Text name1,name2,score1,score2;
 	public GameObject panelwin;
-	
+	public phand phandler;
 	// Use this for initialization
 	void Start () {
 		
@@ -23,5 +23,13 @@ public class endgame : MonoBehaviour {
 		name2.text = ""+namend;
 		score1.text = ""+scorest;
 		score2.text = ""+scorend;
+	}
+	
+	public void backtoframe1(){
+		phandler = GameObject.Find("photondontdestroy").GetComponent<phand>();
+		phandler.returnto1frame();
+	}
+	public void backtoframe1real(){
+		PhotonNetwork.LoadLevel("Frame1");
 	}
 }

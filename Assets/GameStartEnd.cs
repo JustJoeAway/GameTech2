@@ -40,8 +40,6 @@ public class GameStartEnd : Photon.MonoBehaviour{
 			gameover = true;
 		}
 	}
-	public void loadframe1(){
-		SceneManager.LoadScene ("Frame1");
-	}
+	
 
 }

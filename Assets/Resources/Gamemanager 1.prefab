@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 114806919712192636}
   m_Layer: 0
   m_Name: Gamemanager 1
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36,7 +36,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1292124327051850}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -132.15735, y: -14.467941, z: -0.091248095}
+  m_LocalPosition: {x: -239.73479, y: 31.441345, z: -0.091248095}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -82,8 +82,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xRmin: -20
   xRmax: 20
-  yRmin: -2.62
-  yRmax: 9
   poolsize: 6
   coinprefab: {fileID: 1640588736375168, guid: 0d5dcf2ac0f668b43bde094ed3bb939c, type: 2}
   coinprefab2: {fileID: 1174863190034470, guid: fca1d75b882e75e4aa58508ff39f3a2f,

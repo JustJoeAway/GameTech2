@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class phand : Photon.MonoBehaviour
 {
+	
     public PUNButton PB;
     public GameObject MainPlayer;
     public GameObject gamemeger;
@@ -14,12 +15,20 @@ public class phand : Photon.MonoBehaviour
 	public Text inputnama;
 	public Text MAP;
 	public string namaplayer;
+	private int scriptcount;
+	
+	
+	private static phand phandelerer;
+	
     private void Awake()
     {
-        DontDestroyOnLoad(this.transform);
+		
+		DontDestroyOnLoad(this.transform);	 
         PhotonNetwork.sendRate = 30;
         PhotonNetwork.sendRateOnSerialize = 20;
         SceneManager.sceneLoaded += OnFinishedLoading;
+		scriptcount++;
+		
     }
     public void CreateNewRoom()
     {
@@ -60,7 +69,14 @@ public class phand : Photon.MonoBehaviour
 
     private void OnFinishedLoading(Scene scene, LoadSceneMode mode)
     {
-        SpawnPlayer();
+		if(Application.loadedLevel == 0){
+			scriptcount = 0;
+			PhotonNetwork.Disconnect();
+		}
+		Debug.Log("Asasdas");
+		if(PhotonNetwork.inRoom && scriptcount==1){
+			SpawnPlayer();
+		}
         
     }
     private void SpawnPlayer()
@@ -69,5 +85,26 @@ public class phand : Photon.MonoBehaviour
 		playernumber++;
 		PhotonNetwork.Instantiate(MainPlayer.name,new Vector3(0.03f,1f,0f), MainPlayer.transform.rotation, 0);
 		PhotonNetwork.Instantiate(gamemeger.name, gamemeger.transform.position, gamemeger.transform.rotation, 0);
+		
     }
+	
+	public void returnto1frame(){
+		PhotonNetwork.DestroyPlayerObjects(PhotonNetwork.player);
+        PhotonNetwork.LeaveRoom();
+		
+
+	}
+	public void OnLeftRoom()
+    { 
+		Destroy(this.gameObject);
+        PhotonNetwork.LoadLevel("Main");
+    }
+	public void OnDisconnectedFromPhoton()
+    {
+		Destroy(this.gameObject);
+        PhotonNetwork.LoadLevel("Main");
+		
+	}
+	
+	
 }
